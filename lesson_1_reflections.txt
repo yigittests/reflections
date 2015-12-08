@@ -1,0 +1,48 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+	Diff generates a summary of the lines that have been changed. In this way,
+	I don't  have to read through the whole code to find the changes.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+	In some point of the development there may come a time that some change break
+	the code. When this happens you may need to go back to a version that was 
+	working and compare what went wrong.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+	Only you can know whether a commit is logical, big or small for your needs. 
+	It's a pro that you can control the versions manually for productivity.
+	However, humans are error-prone. We could forget committing and make some
+	drastic changes on the code. Automatic committing have that kind of an
+	advantage. It's convenient.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+	Git is specialized for code. So it is common in programming to separate code files
+	when developing  applications. In Git-like systems it is high probability that 
+	multiple files will be related to each other, whereas in Google Docs-like systems 
+	users will probably work on singular files which will have no dependency on
+	the change in any other file. 
+
+How can you use the commands git log and git diff to view the history of files?
+
+	git log gives you the history of all the commits and you can compare two of them 
+	by their IDs using git diff.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+	Since I know there is a working version of my application committed. I can make 
+	changes that have possibility to break the code. If these changes really break my
+	code, than I can checkout to a previous working version and compare each other to 
+	find the bug. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+	For several projects I'll be working on soon.
