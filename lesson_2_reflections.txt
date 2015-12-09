@@ -19,6 +19,8 @@ organized? How would branches help?
 
 How do the diagrams help you visualize the branch structure?
 
+	Diagrams help to visualize complex branching systems by providing a convenient tree-like graph. It makes it easy to see which commit is part of wich branch and the entire inheritance relationship.  
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
