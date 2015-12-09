@@ -28,3 +28,5 @@ the diagram the way we do?
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+	
+	Letting Git do all the merges automatically requires to implement a strong machine learning algoritm to it. Which is not that easy and efficient and still could not be solving every problem. Whereas, always doing merges manually is cumbersome. So Git merges new additions and deletions but when a conflict happens in the same part of the file that is not clear which change to merge, it passes the desicion to the authors to fix the conflict. 
