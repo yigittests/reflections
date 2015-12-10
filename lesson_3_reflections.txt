@@ -23,7 +23,7 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    It is usefull as a reference to check what was the state of last push or pull. You can add more changes to that project but the remote commit still stays in the same status. It also helps you if you are going to be offline for a while. So when you make some offline changes and want to see what changes have been made when you are gone, you can fetch them from remote repository and they branced from the last state of the remote repository. You can then deceide when and how to merge your changes.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
